@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.loadButtton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CommandsTree
@@ -56,16 +57,16 @@
             "Выход на специалиста"});
             this.typeComboBox.Location = new System.Drawing.Point(26, 334);
             this.typeComboBox.Name = "typeComboBox";
-            this.typeComboBox.Size = new System.Drawing.Size(121, 24);
+            this.typeComboBox.Size = new System.Drawing.Size(121, 21);
             this.typeComboBox.TabIndex = 1;
             this.typeComboBox.SelectedIndexChanged += new System.EventHandler(this.typeComboBox_SelectedIndexChanged);
             // 
             // messageTextBox
             // 
             this.messageTextBox.Enabled = false;
-            this.messageTextBox.Location = new System.Drawing.Point(170, 330);
+            this.messageTextBox.Location = new System.Drawing.Point(305, 330);
             this.messageTextBox.Name = "messageTextBox";
-            this.messageTextBox.Size = new System.Drawing.Size(609, 84);
+            this.messageTextBox.Size = new System.Drawing.Size(474, 84);
             this.messageTextBox.TabIndex = 2;
             this.messageTextBox.Text = "";
             // 
@@ -85,7 +86,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(882, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
             // 
@@ -94,23 +95,34 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(24, 308);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Тип узла";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(179, 308);
+            this.label3.Location = new System.Drawing.Point(302, 308);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Текст";
+            // 
+            // loadButtton
+            // 
+            this.loadButtton.Location = new System.Drawing.Point(174, 373);
+            this.loadButtton.Name = "loadButtton";
+            this.loadButtton.Size = new System.Drawing.Size(107, 29);
+            this.loadButtton.TabIndex = 7;
+            this.loadButtton.Text = "Загрузить";
+            this.loadButtton.UseVisualStyleBackColor = true;
+            this.loadButtton.Click += new System.EventHandler(this.loadButtton_Click);
             // 
             // Form1
             // 
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(792, 426);
+            this.Controls.Add(this.loadButtton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -133,6 +145,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button loadButtton;
 
         #endregion
 
