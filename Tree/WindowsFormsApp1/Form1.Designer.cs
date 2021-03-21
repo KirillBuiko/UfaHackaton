@@ -57,7 +57,7 @@
             "Выход на специалиста"});
             this.typeComboBox.Location = new System.Drawing.Point(26, 334);
             this.typeComboBox.Name = "typeComboBox";
-            this.typeComboBox.Size = new System.Drawing.Size(121, 21);
+            this.typeComboBox.Size = new System.Drawing.Size(121, 24);
             this.typeComboBox.TabIndex = 1;
             this.typeComboBox.SelectedIndexChanged += new System.EventHandler(this.typeComboBox_SelectedIndexChanged);
             // 
@@ -86,7 +86,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(882, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(46, 17);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
             // 
@@ -95,7 +95,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(24, 308);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(67, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Тип узла";
             // 
@@ -104,7 +104,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(302, 308);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(46, 17);
             this.label3.TabIndex = 6;
             this.label3.Text = "Текст";
             // 

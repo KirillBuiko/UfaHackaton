@@ -1155,11 +1155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\SpecialistGUI\\SpecialistGUI\\SpecialistGUI.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\UfaHackaton\\SpecialistGUI\\SpecialistGUI\\SpecialistGUI.csproj",
       "projectName": "SpecialistGUI",
-      "projectPath": "C:\\Users\\User\\source\\repos\\SpecialistGUI\\SpecialistGUI\\SpecialistGUI.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\UfaHackaton\\SpecialistGUI\\SpecialistGUI\\SpecialistGUI.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\SpecialistGUI\\SpecialistGUI\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\UfaHackaton\\SpecialistGUI\\SpecialistGUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

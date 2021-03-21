@@ -126,7 +126,7 @@ namespace WindowsFormsApp1
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
-            DBClass.connect("Debug.db");
+            DBClass.connect("D:/DB/Debug.db");
             comandList = DBClass.getComands(nullStr);
             CommandsTree.BeginUpdate();
             CommandsTree.Nodes.Add("Команды");
@@ -134,8 +134,6 @@ namespace WindowsFormsApp1
             extractHeads(comandList);
             loadTreeView(comandList);
             CommandsTree.Nodes[0].Toggle();
-
-
         }
 
         private void setAddComponets(bool flag)

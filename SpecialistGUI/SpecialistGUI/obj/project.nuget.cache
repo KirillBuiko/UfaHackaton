@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VC5zpTVE8hAgYYO3TDP10rGJViO7PkFS6rtwJ73YY3F5kRzCtIaptWlyNPDWZzbhymFgTAb3E9kDkVJriqy4Rg==",
+  "dgSpecHash": "6tbxwY7DZ56F0UIrEILRmF2DB8IMBtibPWRTYcVwhlKc6OSrFUMWX6cOxJA2TCKCZqQbyZZEH/feWk/A9jPKOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\SpecialistGUI\\SpecialistGUI\\SpecialistGUI.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\UfaHackaton\\SpecialistGUI\\SpecialistGUI\\SpecialistGUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
