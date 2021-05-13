@@ -58,6 +58,7 @@ namespace SpecialistGUI
         }
         private void button2_Click(object sender, EventArgs e)
         {
+            if (comboBox2.SelectedItem == null) return;
             index = comboBox2.SelectedIndex;
             messTimer.Start();
             button3.Enabled = true;
